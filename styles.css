@@ -16,20 +16,13 @@ body{
     
 }
 
-.ent_header, .footer{
+.header_block, .footer,.header_cont{
+
     background-color: #1F2937;
+
     margin: 0 0;
 }
- .ent_header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-     
-    flex:1 1 0;
-    gap: 30px;
-    padding-left: 400px;
-    
-} 
+
 .header_block{
     
     display:flex;
@@ -39,20 +32,22 @@ body{
     align-items: center;
     flex: 1 1 0;
     
-    max-width: 1200px;
+    
     justify-content: space-between;
+    padding: 10px 40px;
+    
     
 }
-.header_block.header_logo , .header_block.head_links{
-    display: flex;
-    flex:0 1 auto;
-}
+
+
+
 .header_cont{
-    
+    padding: 50px 10px;
     display:flex;
-    max-width: 1200px;
-    justify-content: space-between;
+    
+    justify-content: space-around;
     flex: 1 1 0;
+    gap: 60px;
 }
 .header_cont .text{
     display: flex;
